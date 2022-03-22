@@ -1,0 +1,10 @@
+.header-bar {
+	height: 100px;
+	width: 100%;
+	color: grey;
+	
+}
+
+#site-logo {
+	height: 50%;
+}
