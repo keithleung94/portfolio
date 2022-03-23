@@ -36,7 +36,6 @@
 		<h2 id="intro_text">
 			I am a strategic design thinker that finds joy in collaboratively building research driven solutions and innovations.
 		</h2>
-		
 		<p>
 			I am a recent graduate of Simon Fraser University's School of Interactive Art and Technology. I am passionate about User Experience design because of the intriguing intersection between business strategy, which enables change, and design thinking, which generates meaning. The cross between the two is a challenging but rewarding area that inspires and motivates me to be creative and to help shape the world we live in.
 		</p>
@@ -50,7 +49,8 @@
 	
 	<section class="section60">
 		<a href="spotify-collections.html" class="casestudy_link"><image class="casestudy_poster" src="img/casestudy/spotify/poster.png" alt="Spotify Collections Poster"></a>
-		<a  class="casestudy_link"><image class="casestudy_poster disabled_link" src="img/casestudy/moment/poster.png" alt="Moment Track Poster"></a>	
+		
+		<a href="moment-track.html" class="casestudy_link"><image class="casestudy_poster disabled_link" src="img/casestudy/moment/poster.png" alt="Moment Track Poster"></a>	
 	</section>
 	
 	<div class="spacer4">
