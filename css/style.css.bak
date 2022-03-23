@@ -318,10 +318,13 @@ figcaption {
     width: 100%;
   }
   
-  
-  .casestudy_quote, .section60, p, .intro_text, .border75 {
+  .section60, p, .intro_text, .border75 {
 	width: 100%;
 	max-width: 100%;
+  }
+  
+  .casestudy_quote {
+	width: 80%;
   }
 	
 	h1 {
