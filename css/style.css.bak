@@ -207,6 +207,11 @@ sup {
 	margin: 0.5em 0;
 }
 
+.casestudy_image {
+	width: 75%;
+	margin: 0.5em 0;
+}
+
 .casestudy_research {
 	
 }
@@ -353,7 +358,7 @@ sup {
 
 @media screen and (max-width: 991px) {
   /* For mobile phones: */
-  .column3 {
+  .column3, .column2 {
     width: 100%;
   }
   
@@ -365,10 +370,10 @@ sup {
   .casestudy_quote {
 	width: 80%;
   }
-	
-	h1 {
-		font-size: 3em;
-	} 
+
+h1 {
+	font-size: 3em;
+} 
 
 h2 {
 	font-size: 2em;
@@ -398,5 +403,9 @@ figcaption {
 	font-size: 0.9em;
 }
 	
+.casestudy_image {
+	width: 100%;
+	margin: 0.5em 0;
+}
 	
 }

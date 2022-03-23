@@ -243,26 +243,47 @@
 			
 			
 			<h3 class="">
-				Refined Design Focus
+				Co-Creation Workshop
 			</h3>
 			
+			<img src="img/casestudy/moment/participatory_workshop.png" class="casestudy_image50">
+			
 			<p class="casestudy_bodytext">
-				Create an interactive informational application for direct-to-consumer clients that assures them the product is reliable in order to promote lasting relationships.		
+				We conducted a participatory workshop with Moment Energy to both share our findings from the user interviews as well as to ensure our design intervention would meet both the needs of the users as well as Moment Energy. This workshop was conducted online (due to the pandemic) via Discord and Figma. 
 			</p>
 			
-			
+			<img src="img/casestudy/moment/interface_building.png" class="casestudy_image">
+			<img src="img/casestudy/moment/impact_ranking.png" class="casestudy_image">
 			
 			<h2 class="">
-				Solution: Spotify Collections
+				Workshop Takeaways
 			</h2>
 			
+			<h3 class="">
+				The Meaning of ‘Trust’
+			</h3>
 			<p class="casestudy_bodytext">
-				Our final solution is a package of three connected features that serves as value added options for users to enhance their podcast consumption experience from directly within the app. These features were carefully designed around the existing app as not to disrupt the existing experience because these features are not for everyone. 
+				Through design games, we narrowed down what ‘trust’ meant to Moment Energy, and brainstormed how they could deliver on that trust with technology.
 			</p>
+			
+			<h3 class="">
+				Narrowing Down the User
+			</h3>
+			<p class="casestudy_bodytext">
+				Moment Energy has both business-to-business (B2B) and business-to-consumer (B2C) relations. As per our research and discussions, we narrowed in on B2C interactions.
+			</p>
+			
+			<h3 class="">
+				Confirming our concepts
+			</h3>
+			<p class="casestudy_bodytext">
+				During the H-Form activity, we learned that we were heading in the right direction with our concepts. The Moment Energy Team made further suggestions about possible interactions and refining the audience.			
+			</p>
+			
+			
 			
 			<img src="img/casestudy/spotify/feature_breakdown.png" class="casestudy_image">
 			
-			<p class="casestudy_bodytext">To skip to the feature breakdown, <a href="">click here!</a></p>
 			
 		</section>
 	</div>
