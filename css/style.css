@@ -18,14 +18,13 @@ h1, h2, h3, h4, p, li, q, figcaption {
 h1 {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
-	font-size: 5em;
+	font-size: 4em;
 }
 
 h2 {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
 	font-size: 2em;
-	margin-top: 3em;
 }
 
 h3 {
@@ -72,7 +71,35 @@ figcaption {
 	margin-bottom: 1em;
 }
 
+sup {
+	font-size: 50%;
+}
+
 /* END FONTS */
+
+
+/* START BUTTON STYLING */
+
+.return_button {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Manrope', sans-serif;
+	font-weight: 400;
+	letter-spacing: 2px;
+	border: 1px #2D5CB7 solid;
+	color: #2D5CB7;
+	padding: 5px 10px;
+}
+
+.return_button:hover, .return_button:active{
+	color: #2FC1FF;
+	border: 1px #2FC1FF solid;
+}
+
+
+/* END BUTTON STYLING */
+
+
 
 
 /* START TEXT STYLING */
@@ -83,6 +110,12 @@ figcaption {
 .centre_text {
 	text-align: center;
 }
+
+.list_text {
+	margin: 0.5em 0;
+	font-size: 100%;
+}
+
 /* END TEXT STYLING */
 
 
@@ -90,10 +123,11 @@ figcaption {
 .outtro_link {
 	color: #2D5CB7;
 }
+
+.outtro_link:hover, outtro_link:active {
+	color: #2FC1FF;
+}
 /* END LINK STYLING */
-
-
-
 
 
 /* START LOGO */
@@ -312,15 +346,15 @@ figcaption {
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   /* For mobile phones: */
   .column {
     width: 100%;
   }
   
   .section60, p, #intro_text, .border75 {
-	width: 100%;
-	max-width: 100%;
+	width: 90%;
+	max-width: 90%;
   }
   
   .casestudy_quote {

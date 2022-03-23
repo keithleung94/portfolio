@@ -322,68 +322,91 @@
 			</p>
 			<div class="row">
 			  <div class="column">
-				<p class="casestudy_bodytext">
-					Provide value to listeners by equipping users with the podcast features they need within the Spotify app
+				<p class="casestudy_bodytext list_text">
+					1. Provide value to listeners by equipping users with the podcast features they need within the Spotify app
 				</p>
 			  </div>
 			  <div class="column">
-				<p class="casestudy_bodytext">
-					Reduce cognitive overhead by streamlining the podcast consumption process through new interactions
+				<p class="casestudy_bodytext list_text">
+					2. Reduce cognitive overhead by streamlining the podcast consumption process through new interactions
 				</p>
 			  </div>
 			  <div class="column">
-				<p class="casestudy_bodytext">
-					Align Spotify Podcasts to their brand presented in the rest of the platform
+				<p class="casestudy_bodytext list_text">
+					3. Align Spotify Podcasts to their brand presented in the rest of the platform
 				</p>
 			  </div>
 			</div>
 			
+			  <p class="casestudy_bodytext">
+					Click <a href="https://www.figma.com/proto/9VUNGazycWksNshtCbXBLz/IAT-438-%2F-FINAL-WEEK-(Copy)?page-id=1%3A2&node-id=1%3A3110&viewport=333%2C48%2C0.07&scaling=scale-down&starting-point-node-id=1%3A4677&show-proto-sidebar=1
+">here</a> to interact with the final prototype in Figma.
+				</p>
+			
+			<img src="img/casestudy/spotify/notes1.png" class="casestudy_image">
 			<h2 class="">
-				Notes
+				<sup>1</sup>Notes
 			</h2>
+			
 			<p class="casestudy_bodytext">
 				Notes is a new feature that allows users to clip sections of podcasts and/or jot down some thoughts and ideas about what they are listening to, allowing them to stay within the app while actively engaging with their favourite podcast content.
 			</p>
 			
-			<img src="img/casestudy/spotify/notes1.png" class="casestudy_image">
 			<img src="img/casestudy/spotify/notes2.png" class="casestudy_image">
 			<img src="img/casestudy/spotify/notes3.png" class="casestudy_image">
 			<img src="img/casestudy/spotify/notes4.png" class="casestudy_image">
 			<img src="img/casestudy/spotify/notes5.png" class="casestudy_image">
 			<img src="img/casestudy/spotify/notes6.png" class="casestudy_image">
 			
+			<p class="casestudy_bodytext">
+				The value of notes is derived from its flexibility and seamless integration. Add bookmarks, create sound clips, jot down memos... or don't! The choice is yours, and their integration will not disturb your regular listening experience.
+			</p>
+			
+			
+			<img src="img/casestudy/spotify/collections1.png" class="casestudy_image">
+			
 			<h2 class="">
-				Collections
+				<sup>2</sup>Collections
 			</h2>
 			<p class="casestudy_bodytext">
 				Collections extends the Notes feature by allowing users to organize notes into spaces similar to playlists. Collaborative collections allow groups of users to communicate and share their podcast experiences in a convenient and unobtrusive manner.
 			</p>
 			
-			<img src="img/casestudy/spotify/collections1.png" class="casestudy_image">
 			<img src="img/casestudy/spotify/collections2.png" class="casestudy_image">
+			
+			<p class="casestudy_bodytext">
+				Collections are music playlists reimagined for podcasts, requiring more space for content and collaboration. Collections allow users to become creators, either for themselves or as a social outlet.
+			</p>
+			
 
+			<img src="img/casestudy/spotify/infocards1.png" class="casestudy_image">
 			<h2 class="">
-				Information Cards
+				<sup>3</sup>Information Cards
 			</h2>
 			<p class="casestudy_bodytext">
 				Information Cards support the Notes feature by supplying users with the information and tools to get the most out of their podcast. Convenient placement of shownotes, transcripts, and timestamps reduce the friction of navigating podcast content while creating a new point of entry for note creation.
 			</p>
 			
-			<img src="img/casestudy/spotify/infocards1.png" class="casestudy_image">
+
 			<img src="img/casestudy/spotify/infocards2.png" class="casestudy_image">
 			<img src="img/casestudy/spotify/infocards3.png" class="casestudy_image">
+
+			<h2 class="">
+				Reflection
+			</h2>
+			<p class="casestudy_bodytext">
+				In the end, our team was quite satisfied with creating a design solution within Spotify's ecosystem that yielded promising feedback from user experts. Being told that our solution was "something Spotify should already have" or that they could not distinguish our design from the existing interface meant we were moving in the right direction.
+			</p>
+			
+			<p class="casestudy_bodytext">
+				If given a chance to do the project again, I would choose to be more experimental with interactions and solutions. Spotify boasts a creative and innovative brand, and thus there is an enourmous amount of room for experimentation and inginuity.
+			</p>
+			
 
 		</section>
 	
 	</div>
 
-	<div class="light">
-		<section class="section60">
-			<h2 class="">
-					Reflection
-			</h2>
-		</section>
-	</div>
 
 
 	<script src="js/scripts.js"></script>
