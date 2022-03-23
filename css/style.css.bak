@@ -9,7 +9,7 @@ h1, h2, h3, h4, p, li, q, figcaption {
 
 .light {
 	background-color: #313131;
-	padding: 1rem 0;
+	padding: 1em 0;
 }
 /* END COLOURS */
 
@@ -18,44 +18,44 @@ h1, h2, h3, h4, p, li, q, figcaption {
 h1 {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
-	font-size: 5rem;
+	font-size: 5em;
 }
 
 h2 {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
-	font-size: 2rem;
-	margin-top: 3rem;
+	font-size: 2em;
+	margin-top: 3em;
 }
 
 h3 {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
-	font-size: 1.2rem;
+	font-size: 1.2em;
 }
 
 h4 {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 700;
-	font-size: 1rem;
+	font-size: 1em;
 }
 
 p {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 400;
-	font-size: 1.4rem;
+	font-size: 1.4em;
 	width: 75%;
-	line-height: 2.1rem;
+	line-height: 2.1em;
 }
 
 .casestudy_quote{
 	font-family: 'Mullish', sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	font-size: 1.2rem;
-	padding-left: 2rem;
+	font-size: 1.2em;
+	padding-left: 2em;
 	border-left: 1px white solid;
-	margin-left: 2rem;
+	margin-left: 2em;
 	width: 60%;
 }
 
@@ -68,7 +68,8 @@ figcaption {
 	font-family: 'Mullish', sans-serif;
 	font-weight: 400;
 	font-style: italic;
-	font-size: 0.9rem;
+	font-size: 0.9em;
+	margin-bottom: 1em;
 }
 
 /* END FONTS */
@@ -80,7 +81,7 @@ figcaption {
 }
 
 .centre_text {
-	text-align: centre;
+	text-align: center;
 }
 /* END TEXT STYLING */
 
@@ -98,8 +99,8 @@ figcaption {
 /* START LOGO */
 #logo {
 	position: fixed;
-	top: 2rem;
-	left: 3rem;
+	top: 2em;
+	left: 3em;
 }
 /* END LOGO */
 
@@ -108,26 +109,26 @@ figcaption {
 .section60 {
 	display: block;
 	width: 60%;
-	margin: 2rem auto;
+	margin: 2em auto;
 }
 /* END SECTION STYLING */
 
 
 /* START INTRO SECTION FORMAT */
 #spacer12 {
-	height: 12rem;
+	height: 12em;
 }
 
 #spacer4 {
-	height: 4rem;
+	height: 4em;
 }
 
 #spacer2 {
-	height: 2rem;
+	height: 2em;
 }
 
 #intro_name {
-	margin-bottom: 1rem;
+	margin-bottom: 1em;
 }
 
 #intro_text {
@@ -141,7 +142,7 @@ figcaption {
 .casestudy_poster {
 	display: block;
 	width: 100%;
-	margin: 2rem auto;
+	margin: 2em auto;
 	transition: transform .5s; /* Animation */
 }
 
@@ -167,13 +168,9 @@ figcaption {
 	max-width: 75%;
 }
 
-#casestudy_intro{
-	font-size: 1.4rem;
-}
-
 .casestudy_image {
 	width: 100%;
-	margin: 0.5rem 0;
+	margin: 0.5em 0;
 }
 
 .casestudy_research {
@@ -309,3 +306,55 @@ figcaption {
 	to {opacity: 1}
 }
 /* END IMAGE CAROUSEL */
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .column {
+    width: 100%;
+  }
+  
+  
+  .casestudy_quote, .section60, p, .intro_text, .border75 {
+	width: 100%;
+	max-width: 100%;
+  }
+	
+	h1 {
+		font-size: 3em;
+	} 
+
+h2 {
+	font-size: 2em;
+}
+
+h3 {
+	font-size: 1.2em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+p {
+	font-size: 1em;
+}
+
+.casestudy_quote{
+	font-size: 1.2em;
+}
+
+li {
+	font-size: ;
+}
+
+figcaption {
+	font-size: 0.9em;
+}
+	
+	
+}
