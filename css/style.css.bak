@@ -42,7 +42,7 @@ h4 {
 p {
 	font-family: 'Manrope', sans-serif;
 	font-weight: 400;
-	font-size: 1.4em;
+	font-size: 1.2em;
 	width: 75%;
 	line-height: 2.1em;
 }
@@ -203,17 +203,8 @@ sup {
 }
 
 .casestudy_image {
-	width: 100%;
-	margin: 0.5em 0;
-}
-
-.casestudy_image {
 	width: 75%;
-	margin: 0.5em 0;
-}
-
-.casestudy_research {
-	
+	margin: 0.2em 0;
 }
 
 .column2 {
@@ -362,10 +353,16 @@ sup {
     width: 100%;
   }
   
-  .section60, p, #intro_text, .border75 {
+  .section60, p, #intro_text {
 	width: 90%;
 	max-width: 90%;
   }
+  
+  .border75 {
+	width: 95%;
+	max-width: 95%;
+  }
+  
   
   .casestudy_quote {
 	width: 80%;
@@ -405,7 +402,6 @@ figcaption {
 	
 .casestudy_image {
 	width: 100%;
-	margin: 0.5em 0;
 }
 	
 }
