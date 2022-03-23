@@ -34,7 +34,7 @@
 	<div class="dark">
 		<section class="section60">
 		
-			<div id="spacer12">
+			<div class="spacer12">
 			</div>
 			
 			<h1 id="casestudy_name">
@@ -44,7 +44,7 @@
 				<span class="bold">Spotify Collections</span> is a feature design solution for Spotify's mobile podcast consumption experience that empowers engaged listeners to accomplish more directly within the app. Spotify's surge towards becoming a leader in podcast platforms has left much to be desired within their interface. Spotify's lacklustre integration of longform media on the platform has created an opportunity to design features specifically catered towards podcast listeners, while continuing to demonstrate their excellence in brand and user experience.
 			</p>
 			
-			<div id="spacer2">
+			<div class="spacer2">
 			</div>
 			
 			<div class="border75">
@@ -58,7 +58,7 @@
 			</ul>
 			</div>
 			
-			<div id="spacer2">
+			<div class="spacer2">
 			</div>
 
 			<h2 class="">
@@ -69,7 +69,7 @@
 				We chose to conduct our study on the emerging podcast market. The rising popularity of consuming podcasts led to an influx of companies creating platforms for longform audio media. Among those companies is Spotify, adding podcasts to their audio platform and purchasing exclusive rights to the hottest podcasts like The Joe Rogan Experience. We noticed a discrepancy between the quality of experience between the music and podcast sides of Spotify, as well as a distinct lack of features supporting engaged podcast listeners. Given Spotify’s strong brand as a leader in music streaming, we decided to take a deep dive on how Spotify could better align their podcast experience with business and user goals.
 			</p>
 			
-			<div id="spacer2">
+			<div class="spacer2">
 			</div>
 
 			<h2 class="">
@@ -121,7 +121,10 @@
 	</div>
 	<div class="light">	
 		<section class="section60 casestudy_research">
-		
+			
+			<div class="spacer4">
+			</div>
+			
 			<h2 class="">
 				Defining the Audience
 			</h2>
@@ -310,7 +313,9 @@
 	<div class="dark">
 	
 		<section class="section60" id="proposed_solution">
-
+			
+			<div class="spacer4">
+			</div>
 
 			<img src="img/casestudy/spotify/feature_breakdown.png" class="casestudy_image">
 			
@@ -338,10 +343,14 @@
 			  </div>
 			</div>
 			
+			
 			  <p class="casestudy_bodytext">
 					Click <a href="https://www.figma.com/proto/9VUNGazycWksNshtCbXBLz/IAT-438-%2F-FINAL-WEEK-(Copy)?page-id=1%3A2&node-id=1%3A3110&viewport=333%2C48%2C0.07&scaling=scale-down&starting-point-node-id=1%3A4677&show-proto-sidebar=1
 ">here</a> to interact with the final prototype in Figma.
 				</p>
+				
+			<div class="spacer4">
+			</div>
 			
 			<img src="img/casestudy/spotify/notes1.png" class="casestudy_image">
 			<h2 class="">
@@ -362,6 +371,8 @@
 				The value of notes is derived from its flexibility and seamless integration. Add bookmarks, create sound clips, jot down memos... or don't! The choice is yours, and their integration will not disturb your regular listening experience.
 			</p>
 			
+			<div class="spacer4">
+			</div>
 			
 			<img src="img/casestudy/spotify/collections1.png" class="casestudy_image">
 			
@@ -378,7 +389,10 @@
 				Collections are music playlists reimagined for podcasts, requiring more space for content and collaboration. Collections allow users to become creators, either for themselves or as a social outlet.
 			</p>
 			
-
+			
+			<div class="spacer4">
+			</div>
+			
 			<img src="img/casestudy/spotify/infocards1.png" class="casestudy_image">
 			<h2 class="">
 				<sup>3</sup>Information Cards
@@ -391,6 +405,10 @@
 			<img src="img/casestudy/spotify/infocards2.png" class="casestudy_image">
 			<img src="img/casestudy/spotify/infocards3.png" class="casestudy_image">
 
+
+			<div class="spacer4">
+			</div>
+			
 			<h2 class="">
 				Reflection
 			</h2>
@@ -402,6 +420,7 @@
 				If given a chance to do the project again, I would choose to be more experimental with interactions and solutions. Spotify boasts a creative and innovative brand, and thus there is an enourmous amount of room for experimentation and inginuity.
 			</p>
 			
+			<a class="return_button" href="index.html">Take me back</a>
 
 		</section>
 	

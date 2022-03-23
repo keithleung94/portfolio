@@ -149,15 +149,15 @@ sup {
 
 
 /* START INTRO SECTION FORMAT */
-#spacer12 {
+.spacer12 {
 	height: 12em;
 }
 
-#spacer4 {
+.spacer4 {
 	height: 4em;
 }
 
-#spacer2 {
+.spacer2 {
 	height: 2em;
 }
 

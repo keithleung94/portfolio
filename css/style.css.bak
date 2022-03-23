@@ -123,6 +123,10 @@ sup {
 .outtro_link {
 	color: #2D5CB7;
 }
+
+.outtro_link:hover, outtro_link:active {
+	color: #2FC1FF;
+}
 /* END LINK STYLING */
 
 
