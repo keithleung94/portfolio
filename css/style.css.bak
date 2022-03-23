@@ -149,15 +149,15 @@ sup {
 
 
 /* START INTRO SECTION FORMAT */
-#spacer12 {
+.spacer12 {
 	height: 12em;
 }
 
-#spacer4 {
+.spacer4 {
 	height: 4em;
 }
 
-#spacer2 {
+.spacer2 {
 	height: 2em;
 }
 
@@ -211,7 +211,12 @@ sup {
 	
 }
 
-.column {
+.column2 {
+	float: left;
+	width: 50%;
+}
+
+.column3 {
   float: left;
   width: 30%;
 }
@@ -348,7 +353,7 @@ sup {
 
 @media screen and (max-width: 991px) {
   /* For mobile phones: */
-  .column {
+  .column3 {
     width: 100%;
   }
   
