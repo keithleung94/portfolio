@@ -120,11 +120,11 @@ sup {
 
 
 /* START LLNK STYLING */
-.outtro_link {
+.link_colour {
 	color: #2D5CB7;
 }
 
-.outtro_link:hover, outtro_link:active {
+.link_colour:hover, outtro_link:active {
 	color: #2FC1FF;
 }
 /* END LINK STYLING */

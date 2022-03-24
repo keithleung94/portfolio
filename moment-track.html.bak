@@ -66,7 +66,7 @@
 			</h2>
 			
 			<p class="casestudy_bodytext">
-				 <a href="https://momentenergy.ca/">Moment Energy</a> is a clean tech start-up company based in Vancouver that was created by four SFU MSE graduates aimed at creating sustainable energy solutions. They repurpose used batteries into energy storage solutions in aims to reduce landfill impact and mining. At the time of this project, the company had next to no customers. They were struggling with attaining new customers due to limitations regarding certification of their product and a lack of experience to support reliability and trust.
+				 <a class="link_colour" href="https://momentenergy.ca/">Moment Energy</a> is a clean tech start-up company based in Vancouver that was created by four SFU MSE graduates aimed at creating sustainable energy solutions. They repurpose used batteries into energy storage solutions in aims to reduce landfill impact and mining. At the time of this project, the company had next to no customers. They were struggling with attaining new customers due to limitations regarding certification of their product and a lack of experience to support reliability and trust.
 			</p>
 			
 			<h3>
@@ -164,6 +164,7 @@
 			</ul>
 			
 			<img src="img/casestudy/moment/affinity_diagram.png" class="casestudy_image">
+			<figcaption>Grouping exercise for affinity diagram</figcaption>
 			
 			<p class="casestudy_bodytext">
 				Through this research, we found that internal practices between the four founders was quite strong. However, external communication to prospective customers and markets was difficult due to lack of credibility and lack of certification. Moment Energy is currently unable to prove the value of their product. We used this information to land on our initial design focus:
@@ -280,215 +281,58 @@
 				During the H-Form activity, we learned that we were heading in the right direction with our concepts. The Moment Energy Team made further suggestions about possible interactions and refining the audience.			
 			</p>
 			
-			
-			
-			<img src="img/casestudy/spotify/feature_breakdown.png" class="casestudy_image">
-			
-			
 		</section>
 	</div>
 	<div class="light">	
 		<section class="section60 casestudy_research">
 		
 			<h2 class="">
-				Defining the Audience
+				Final Proposed Solution: Moment Track App
 			</h2>
 			
 			<p class="casestudy_bodytext">
-				For the purpose of narrowing down our target audience, we separated podcast listeners into active and passive listeners. Spotify’s audio player is not yet geared towards podcast consumption as it lacks podcast specific features found in other specialized apps. Despite this, passive podcast listeners enjoy having access to podcasts in a convenient spot. However, engaged podcast listeners have more needs while consuming their content, leaving them no choice but to turn to other services.
+				The Moment Track app was designed as a value-added feature that comes along with the purchase of a battery. It is meant to help support the user goals defined in our research and fulfill Moment Energy’s promise to their customers. Below is a feature overview for our designed application!
 			</p>
 
-
-			<!-- Audience Comparison Slideshow container -->
-			<div class="slideshow-container">
-
-			  <!-- Full-width images with number and caption text -->
-			  <div class="mySlides fade">
-				<div class="numbertext">1 / 3</div>
-				<img src="img/casestudy/spotify/journeymap1.png" style="width:100%">
-				<div class="carousel_caption_text">Spotify's offering for podcast listeners</div>
-			  </div>
-
-			  <div class="mySlides fade">
-				<div class="numbertext">2 / 3</div>
-				<img src="img/casestudy/spotify/journeymap2.png" style="width:100%">
-				<div class="carousel_caption_text">Passive podcast listener's experience</div>
-			  </div>
-
-			  <div class="mySlides fade">
-				<div class="numbertext">3 / 3</div>
-				<img src="img/casestudy/spotify/journeymap3.png" style="width:100%">
-				<div class="carousel_caption_text">Enganged podcast listener's experience</div>
-			  </div>
-
-			  <!-- Next and previous buttons -->
-			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-			</div>
-			<br>
-
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span>
-			  <span class="dot" onclick="currentSlide(2)"></span>
-			  <span class="dot" onclick="currentSlide(3)"></span>
-			</div>
-			
-			<!-- Music vs Podcasts Slideshow container -->
-			<div class="slideshow-container">
-
-			  <!-- Full-width images with number and caption text -->
-			  <div class="mySlides2 fade">
-				<div class="numbertext">1 / 2</div>
-				<img src="img/casestudy/spotify/musicvspodcast1.png" style="width:100%">
-				<div class="carousel_caption_text">Spotify's offering for podcast listeners</div>
-			  </div>
-
-			  <div class="mySlides2 fade">
-				<div class="numbertext">2 / 2</div>
-				<img src="img/casestudy/spotify/musicvspodcast2.png" style="width:100%">
-				<div class="carousel_caption_text">Passive podcast listener's experience</div>
-			  </div>
-
-
-			  <!-- Next and previous buttons -->
-			  <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
-			  <a class="next" onclick="plusSlides2(1)">&#10095;</a>
-			</div>
-			<br>
-
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot2" onclick="currentSlide2(1)"></span>
-			  <span class="dot2" onclick="currentSlide2(2)"></span>
-			</div>
-
-			<h2 class="">
-				Brand Values
-			</h2>
-			
-			<h3>
-				Music for Everyone
-			</h3>
-			
+			<img src="img/casestudy/moment/moment_track.png" style="width:100%"> 
 			<p class="casestudy_bodytext">
-				Spotify is the leading music streaming platform, and for good reason. Their interface is designed with thoughtful innovation and is supported by powerful algorithms, rendering the music consumption experience completely seamless. Their brand is further defined by their brand values of:
+				The Moment Track dashboard is customizable so that users can monitor pertinent information at a glance. The app is separated into two main pillars: Performance and Finance. These two pillars aim to directly support the user's goals in a practical manner.
 			</p>
 			
-			<div class="row">
-			  <div class="column3">
-				<h3>
-					Collaborative
-				</h3>
-				<p class="casestudy_bodytext">
-					Spotify emphasizes that "We're all Spotify" which includes creators, consumers, and everyone in between.
-				</p>
-			  </div>
-			  <div class="column3">
-				<h3>
-					Personal
-				</h3>
-				<p class="casestudy_bodytext">
-					Spotify's tailored playlists and intimate copywriting create a personalized experience for each and every user.
-				</p>
-			  </div>
-			  <div class="column3">
-				<h3>
-					Innovative
-				</h3>
-				<p class="casestudy_bodytext">
-					Spotify is quick to adapt to new technologies, trends, and even memes.
-				</p>
-			  </div>
+			<img src="img/casestudy/moment/perform.png" style="width:100%">
+			<p class="casestudy_bodytext">
+				Staying confident about the battery system's status and performance is important for creating trust. Allowing customers to be their own monitoring system not only gives them peace of mind, but also enlists the customers to work for Moment Energy by alerting them of any issues.
+			</p>
+			
+			<img src="img/casestudy/moment/gains1.png" style="width:100%">
+			<p class="casestudy_bodytext">
+				A major determining factor to purchasing a Moment Energy battery is financial sense. Equipping customers with a tool to manage, monitor, and maximize the savings & earnings gained from the battery will better help customers understand the benefit they can gain from making the switch. Additionally, the benefits of energy price monitoring and revenue calculators will provide ongoing utility to long-term customers.
+			</p>
+			
+			<img src="img/casestudy/moment/gains2.png" style="width:100%"> 
+			<p class="casestudy_bodytext">
+				Furthermore, archived reports will help customers track their progress automatically, creating peace of mind knowing they are always accessible through the app.
+			</p>
+			
+			<div class="spacer4">
 			</div>
 			
 			<h2 class="">
-				Implementing Spotify's Brand Values
-			</h2>
-		
-			<p class="casestudy_bodytext">
-				It was important for our designs to strictly align with Spotify's core brand values because they were being implemented directly in the same application. We found a large discrepancy in both the quantity and quality of features between the music and podcast sides of Spotify, which extended to both consumption and creation. The resulting experience was problematic because many podcast listeners opted to use other podcast focused apps despite listening to music on Spotify, especially those who sought after value added features that Spotify lacked. We saw the opportunity to discover how Spotify could bridge the gap between 
-			</p>
-			
-			<h3 class="">
-				Subtle Social Qualities
-			</h3>
-			<p class="casestudy_bodytext">
-				Spotify is social, but not in the traditionally loud Web 2.0 format. Spotify is first and foremost an audio player, and they fulfill that role extremely well. The social elements that Spotify has integrated into the app are used to support listeners in their main goal of finding and enjoying music.
-			</p>
-
-			<img src="img/casestudy/spotify/research_social.png" class="casestudy_image">
-			
-			<p class="casestudy_bodytext">
-				Friend activity and group session are social features that sit on the sidelines; users have the option of completely ignoring them with no interruption to the flow of their regular use. However, for those who appreciate the benefits of discovery and directed listening, these features are there to support their needs. Additionally, businesses have created their own form of social content on Spotify by creating playlists that suit their brand.
-			</p>
-			<p class="casestudy_bodytext">
-				The main takeaway from this is that social features should ultimately support the listener’s main goal when using Spotify while remaining unobtrusive to the basic user flow.
-			</p>
-		</section>
-		
-		<section class="section60">
-
-			<h2 class="">
-				Proposed Solution - Spotify Collections
+				Reflection
 			</h2>
 			<p class="casestudy_bodytext">
-				Our proposed solution is Spotify Collections, a system for note-taking and collaborative sharing for podcasts designed for engaged podcast listeners. These features aim to:
+				This project was an amazing learning experience. Failing to create a substantiated design focus due to the lack of key research taught us first hand that design insights cannot be forced. Although we struggled immensely for the first half of the project, everything fell into place after we performed interviews on prospective customers.
 			</p>
-			<div class="row">
-			  <div class="column3">
-				<p class="casestudy_bodytext">
-					Provide value to listeners by equipping users with the podcast features they need within the Spotify app
-				</p>
-			  </div>
-			  <div class="column3">
-				<p class="casestudy_bodytext">
-					Reduce cognitive overhead by streamlining the podcast consumption process through new interactions
-				</p>
-			  </div>
-			  <div class="column3">
-				<p class="casestudy_bodytext">
-					Align Spotify Podcasts to their brand presented in the rest of the platform
-				</p>
-			  </div>
+			
+			<p class="casestudy_bodytext">
+				The lesson did come at a price; the time we lost cut into our creation process, leaving much room for improvement on the visual design side. We were able to showcase our desired functionality, but wish we could have implemented stronger graphics and flows.
+			</p>
+			
+			<div class="spacer4">
 			</div>
 			
-			<h2 class="">
-				Notes
-			</h2>
-			<p class="casestudy_bodytext">
-				-notes breakdown-
-			</p>
+			<a class="return_button" href="index.html">Take me back</a>
 			
-			<img src="img/casestudy/spotify/notes1.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes2.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes3.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes4.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes5.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes6.png" class="casestudy_image">
-			
-			<h2 class="">
-				Collections
-			</h2>
-			<p class="casestudy_bodytext">
-				-collections breakdown-
-			</p>
-			
-			<img src="img/casestudy/spotify/collections1.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/collections2.png" class="casestudy_image">
-
-			<h2 class="">
-				Information Cards
-			</h2>
-			<p class="casestudy_bodytext">
-				-information cards breakdown-
-			</p>
-			
-			<img src="img/casestudy/spotify/infocards1.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/infocards2.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/infocards3.png" class="casestudy_image">
-
-		</section>
 		
 		
 	</div>
