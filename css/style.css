@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, p, li, q, figcaption {
-	color: white;
+	color: #FBFBFB;
 }
 
 .light {
@@ -121,6 +121,14 @@ sup {
 /* START LLNK STYLING */
 .link_colour {
 	color: #2D5CB7;
+}
+
+.link_people {
+	color: #FBFBFB;
+}
+
+.link_people:hover {
+	color: #2FC1FF;
 }
 
 .link_colour:hover, outtro_link:active {

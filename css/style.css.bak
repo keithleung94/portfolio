@@ -4,7 +4,7 @@ body {
 }
 
 h1, h2, h3, h4, p, li, q, figcaption {
-	color: white;
+	color: #FBFBFB;
 }
 
 .light {
@@ -123,6 +123,14 @@ sup {
 	color: #2D5CB7;
 }
 
+.link_people {
+	color: #FBFBFB;
+}
+
+.link_people:hover {
+	color: #CACACA;
+}
+
 .link_colour:hover, outtro_link:active {
 	color: #2FC1FF;
 }
@@ -225,6 +233,10 @@ sup {
 
 .casestudy_content_block {
 	margin-top: 6rem;
+}
+
+.casestudy_subcontent_block {
+	margin-top: 3rem;
 }
 
 
