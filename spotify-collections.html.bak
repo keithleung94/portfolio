@@ -49,7 +49,7 @@
 			<ul class="project_scope_list">
 				<li><span class="bold">Project Context:</span> SFU IAT438 Final Project</li>
 				<li><span class="bold">Project Advisors:</span> <a class="link_people" href="https://www.sfu.ca/siat/people/teaching-faculty/russell-taylor.html">Russell Taylor</a>, <a class="link_people" href="https://thisisarmina.com/">Armina Foroughi</a>, <a class="link_people" href="https://www.linkedin.com/in/stevietanguyen/">Stevie Nguyen</a></li>
-				<li><span class="bold">Project Duration:</span> 6 weeks</li>
+				<li><span class="bold">Project Duration:</span> 5 weeks</li>
 				<li><span class="bold">Tools:</span> Figma</li>
 				<li><span class="bold">Collaborators:</span> <a class="link_people" href="http://www.newtonnguyenle.com/">Newton Nguyen</a>, <a class="link_people" href="https://www.linkedin.com/in/brianna-quan-78a33617a/">Brianna Quan</a>, <a class="link_people" href="https://www.fatimaimran.ca/">Fatima Imran</a>, <a class="link_people" href="https://michelleswolfs.myportfolio.com/about">Michelle Swolfs</a></li>
 				<li><span class="bold">Role:</span> Project Lead, UX Design, UX Research, Content Strategy </li>
@@ -113,7 +113,7 @@
 			
 			<img src="img/casestudy/spotify/feature_breakdown.png" class="casestudy_image">
 			
-			<p class="casestudy_bodytext">To skip to the feature breakdown, <a href="#proposed_solution">click here.</a></p>
+			<p class="casestudy_bodytext">To skip to the feature breakdown, <a class="link_colour" href="#proposed_solution">click here.</a></p>
 		</div>
 	</section>
 		

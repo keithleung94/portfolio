@@ -216,13 +216,17 @@ sup {
 
 .column2 {
 	float: left;
-	width: 50%;
+	width: 40%;
 }
 
 .column3 {
   float: left;
-  width: 30%;
+  width: 27%;
 }
+
+  .column_fullwidth {
+	width: 90%;
+  }
 
 /* Clear floats after the columns */
 .row:after {
@@ -368,7 +372,7 @@ sup {
   .column3, .column2 {
     width: 100%;
   }
-  
+
   .section60, p, #intro_text {
 	width: 90%;
 	max-width: 90%;
@@ -420,4 +424,10 @@ figcaption {
 	width: 100%;
 }
 	
+#logo {
+	position: fixed;
+	top: 0.5;
+	left: 0.5em;
+	opacity:80%;
+	z-index: 1;
 }
