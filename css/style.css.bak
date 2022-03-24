@@ -84,16 +84,16 @@ sup {
 	text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Manrope', sans-serif;
-	font-weight: 400;
+	font-weight: 700;
 	letter-spacing: 2px;
-	border: 1px #2D5CB7 solid;
+	border: 2px #2D5CB7 solid;
 	color: #2D5CB7;
-	padding: 5px 10px;
+	padding: 8px 16px;
 }
 
 .return_button:hover, .return_button:active{
 	color: #2FC1FF;
-	border: 1px #2FC1FF solid;
+	border: 2px #2FC1FF solid;
 }
 
 
@@ -113,18 +113,17 @@ sup {
 
 .list_text {
 	margin: 0.5em 0;
-	font-size: 100%;
 }
 
 /* END TEXT STYLING */
 
 
 /* START LLNK STYLING */
-.outtro_link {
+.link_colour {
 	color: #2D5CB7;
 }
 
-.outtro_link:hover, outtro_link:active {
+.link_colour:hover, outtro_link:active {
 	color: #2FC1FF;
 }
 /* END LINK STYLING */
@@ -224,6 +223,11 @@ sup {
   clear: both;
 }
 
+.casestudy_content_block {
+	margin-top: 6rem;
+}
+
+
 /* END CASE STUDY PAGE SECTION FORMAT */
 
 
@@ -234,9 +238,9 @@ sup {
 
 /* Slideshow container */
 .slideshow-container {
-	max-width: 100%;
+	max-width: 75%;
 	position: relative;
-	margin: auto;
+	margin-top: 3rem;
 }
 
 /* Hide the images by default */
@@ -301,7 +305,7 @@ sup {
 	cursor: pointer;
 	height: 15px;
 	width: 15px;
-	margin: 0 2px;
+	margin: 0 2px 1rem 2px;
 	background-color: #bbb;
 	border-radius: 50%;
 	display: inline-block;

@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>spotifycollections</title>
+	<title>Spotify Collections</title>
 	<meta name="description" content="Keith Leung's UX case study: Spotify Collections">
 	<meta name="author" content="Keith Leung">
 
@@ -31,12 +31,10 @@
 		<image src="img/logo.svg" id="logo">
 	</a>
 
-	<div class="dark">
-		<section class="section60">
-		
-			<div class="spacer12">
-			</div>
-			
+	<section class="section60">
+		<div class="spacer12">
+		</div>
+		<div class="casestudy_content_block">
 			<h1 id="casestudy_name">
 				Spotify Collections
 			</h1>
@@ -57,9 +55,8 @@
 				<li><span class="bold">Role:</span> Project Lead, UX Design, UX Research, Content Strategy </li>
 			</ul>
 			</div>
-			
-			<div class="spacer2">
-			</div>
+		</div>
+		<div class="casestudy_content_block">
 
 			<h2 class="">
 				Problem Space
@@ -68,10 +65,9 @@
 			<p class="casestudy_bodytext">
 				We chose to conduct our study on the emerging podcast market. The rising popularity of consuming podcasts led to an influx of companies creating platforms for longform audio media. Among those companies is Spotify, adding podcasts to their audio platform and purchasing exclusive rights to the hottest podcasts like The Joe Rogan Experience. We noticed a discrepancy between the quality of experience between the music and podcast sides of Spotify, as well as a distinct lack of features supporting engaged podcast listeners. Given Spotify’s strong brand as a leader in music streaming, we decided to take a deep dive on how Spotify could better align their podcast experience with business and user goals.
 			</p>
-			
-			<div class="spacer2">
-			</div>
+		</div>
 
+		<div class="casestudy_content_block">
 			<h2 class="">
 				Primary & Secondary Research
 			</h2>
@@ -90,9 +86,9 @@
 			<p class="casestudy_bodytext">
 				We conducted primary research by sending out an online survey to young adult podcast listeners. The findings largely confirmed what we found through secondary research and gave us the confidence to move forward with our process.
 			</p>
+		</div>
 
-
-
+		<div class="casestudy_content_block">
 			<h2 class="">
 				Framing the Problem
 			</h2>
@@ -104,7 +100,9 @@
 			<p class="casestudy_quote">
 				How might we enhance the experience of engaged podcast listeners through Spotify’s audio player in order to establish Spotify as the premiere podcast platform?
 			</p>
-			
+		</div>
+		
+		<div class="casestudy_content_block">
 			<h2 class="">
 				Solution: Spotify Collections
 			</h2>
@@ -116,198 +114,231 @@
 			<img src="img/casestudy/spotify/feature_breakdown.png" class="casestudy_image">
 			
 			<p class="casestudy_bodytext">To skip to the feature breakdown, <a href="#proposed_solution">click here.</a></p>
-			
-		</section>
-	</div>
+		</div>
+	</section>
+		
+		
+		
 	<div class="light">	
 		<section class="section60 casestudy_research">
-			
-			<div class="spacer4">
+			<div class="casestudy_content_block">
+				<h2 class="">
+					Defining the Audience
+				</h2>
+				
+				<p class="casestudy_bodytext">
+					For the purpose of narrowing down our target audience, we separated podcast listeners into active and passive listeners. Spotify’s audio player is not yet geared towards podcast consumption as it lacks podcast specific features found in other specialized apps. Despite this, passive podcast listeners enjoy having access to podcasts in a convenient spot. However, engaged podcast listeners have more needs while consuming their content, leaving them no choice but to turn to other services.
+				</p>
+
+
+				<!-- Audience Comparison Slideshow container -->
+				<div class="slideshow-container">
+
+				  <!-- Full-width images with number and caption text -->
+				  <div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					<img src="img/casestudy/spotify/journeymap1.png" style="width:100%">
+					<div class="carousel_caption_text">Spotify's offering for podcast listeners</div>
+				  </div>
+
+				  <div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					<img src="img/casestudy/spotify/journeymap2.png" style="width:100%">
+					<div class="carousel_caption_text">Passive podcast listener's experience</div>
+				  </div>
+
+				  <div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					<img src="img/casestudy/spotify/journeymap3.png" style="width:100%">
+					<div class="carousel_caption_text">Enganged podcast listener's experience</div>
+				  </div>
+
+				  <!-- Next and previous buttons -->
+				  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+				</div>
+				<br>
+
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+				  <span class="dot" onclick="currentSlide(1)"></span>
+				  <span class="dot" onclick="currentSlide(2)"></span>
+				  <span class="dot" onclick="currentSlide(3)"></span>
+				</div>
+				
+				<p class="casestudy_bodytext">
+					For the purpose of narrowing down our target audience, we separated podcast listeners into active and passive listeners. Spotify’s audio player is not yet geared towards podcast consumption as it lacks podcast specific features found in other specialized apps. Despite this, passive podcast listeners enjoy having access to podcasts in a convenient spot. However, engaged podcast listeners have more needs while consuming their content, leaving them no choice but to turn to other services.
+				</p>
+				
+				<!-- Music vs Podcasts Slideshow container -->
+				<div class="slideshow-container">
+
+				  <!-- Full-width images with number and caption text -->
+				  <div class="mySlides2 fade">
+					<div class="numbertext">1 / 2</div>
+					<img src="img/casestudy/spotify/musicvspodcast1.png" style="width:100%">
+					<div class="carousel_caption_text">Spotify's music offerings vs podcast offerings</div>
+				  </div>
+
+				  <div class="mySlides2 fade">
+					<div class="numbertext">2 / 2</div>
+					<img src="img/casestudy/spotify/musicvspodcast2.png" style="width:100%">
+					<div class="carousel_caption_text">Opportunities for podcast side</div>
+				  </div>
+
+
+				  <!-- Next and previous buttons -->
+				  <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+				  <a class="next" onclick="plusSlides2(1)">&#10095;</a>
+				</div>
+				<br>
+
+				<!-- The dots/circles -->
+				<div style="text-align:center">
+				  <span class="dot2" onclick="currentSlide2(1)"></span>
+				  <span class="dot2" onclick="currentSlide2(2)"></span>
+				</div>
 			</div>
 			
-			<h2 class="">
-				Defining the Audience
-			</h2>
-			
-			<p class="casestudy_bodytext">
-				For the purpose of narrowing down our target audience, we separated podcast listeners into active and passive listeners. Spotify’s audio player is not yet geared towards podcast consumption as it lacks podcast specific features found in other specialized apps. Despite this, passive podcast listeners enjoy having access to podcasts in a convenient spot. However, engaged podcast listeners have more needs while consuming their content, leaving them no choice but to turn to other services.
-			</p>
-
-
-			<!-- Audience Comparison Slideshow container -->
-			<div class="slideshow-container">
-
-			  <!-- Full-width images with number and caption text -->
-			  <div class="mySlides fade">
-				<div class="numbertext">1 / 3</div>
-				<img src="img/casestudy/spotify/journeymap1.png" style="width:100%">
-				<div class="carousel_caption_text">Spotify's offering for podcast listeners</div>
-			  </div>
-
-			  <div class="mySlides fade">
-				<div class="numbertext">2 / 3</div>
-				<img src="img/casestudy/spotify/journeymap2.png" style="width:100%">
-				<div class="carousel_caption_text">Passive podcast listener's experience</div>
-			  </div>
-
-			  <div class="mySlides fade">
-				<div class="numbertext">3 / 3</div>
-				<img src="img/casestudy/spotify/journeymap3.png" style="width:100%">
-				<div class="carousel_caption_text">Enganged podcast listener's experience</div>
-			  </div>
-
-			  <!-- Next and previous buttons -->
-			  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-			  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-			</div>
-			<br>
-
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot" onclick="currentSlide(1)"></span>
-			  <span class="dot" onclick="currentSlide(2)"></span>
-			  <span class="dot" onclick="currentSlide(3)"></span>
-			</div>
-			
-			<p class="casestudy_bodytext">
-				For the purpose of narrowing down our target audience, we separated podcast listeners into active and passive listeners. Spotify’s audio player is not yet geared towards podcast consumption as it lacks podcast specific features found in other specialized apps. Despite this, passive podcast listeners enjoy having access to podcasts in a convenient spot. However, engaged podcast listeners have more needs while consuming their content, leaving them no choice but to turn to other services.
-			</p>
-			
-			<!-- Music vs Podcasts Slideshow container -->
-			<div class="slideshow-container">
-
-			  <!-- Full-width images with number and caption text -->
-			  <div class="mySlides2 fade">
-				<div class="numbertext">1 / 2</div>
-				<img src="img/casestudy/spotify/musicvspodcast1.png" style="width:100%">
-				<div class="carousel_caption_text">Spotify's music offerings vs podcast offerings</div>
-			  </div>
-
-			  <div class="mySlides2 fade">
-				<div class="numbertext">2 / 2</div>
-				<img src="img/casestudy/spotify/musicvspodcast2.png" style="width:100%">
-				<div class="carousel_caption_text">Opportunities for podcast side</div>
-			  </div>
-
-
-			  <!-- Next and previous buttons -->
-			  <a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
-			  <a class="next" onclick="plusSlides2(1)">&#10095;</a>
-			</div>
-			<br>
-
-			<!-- The dots/circles -->
-			<div style="text-align:center">
-			  <span class="dot2" onclick="currentSlide2(1)"></span>
-			  <span class="dot2" onclick="currentSlide2(2)"></span>
-			</div>
-
-			<h2 class="">
-				Brand Values
-			</h2>
-			
-			<h3>
-				Music for Everyone
-			</h3>
-			
-			<p class="casestudy_bodytext">
-				Spotify is the leading music streaming platform, and for good reason. Their interface is designed with thoughtful innovation and is supported by powerful algorithms, rendering the music consumption experience completely seamless. Their brand is further defined by their brand values of:
-			</p>
-			
-			<div class="row">
-			  <div class="column3">
+			<div class="casestudy_content_block">
+				<h2 class="">
+					Brand Values
+				</h2>
+				
 				<h3>
-					Collaborative
+					Music for Everyone
+				</h3>
+				
+				<p class="casestudy_bodytext">
+					Spotify is the leading music streaming platform, and for good reason. Their interface is designed with thoughtful innovation and is supported by powerful algorithms, rendering the music consumption experience completely seamless. Their brand is further defined by their brand values of:
+				</p>
+				
+				<div class="row">
+				  <div class="column3">
+					<h3>
+						Collaborative
+					</h3>
+					<p class="casestudy_bodytext">
+						Spotify emphasizes that "We're all Spotify" which includes creators, consumers, and everyone in between.
+					</p>
+				  </div>
+				  <div class="column3">
+					<h3>
+						Personal
+					</h3>
+					<p class="casestudy_bodytext">
+						Spotify's tailored playlists and intimate copywriting create a personalized experience for each and every user.
+					</p>
+				  </div>
+				  <div class="column3">
+					<h3>
+						Innovative
+					</h3>
+					<p class="casestudy_bodytext">
+						Spotify is quick to adapt to new technologies, trends, and even memes.
+					</p>
+				  </div>
+				</div>
+			</div>
+			
+			<div class="casestudy_content_block">
+				<h2 class="">
+					Implementing Spotify's Brand Values
+				</h2>
+			
+				<p class="casestudy_bodytext">
+					It was important for our designs to strictly align with Spotify's core brand values because they were being implemented directly in the same application. We found a large discrepancy in both the quantity and quality of features between the music and podcast sides of Spotify, which extended to both consumption and creation. The resulting experience was problematic because many podcast listeners opted to use other podcast focused apps despite listening to music on Spotify, especially those who sought after value added features that Spotify lacked. We saw the opportunity to discover how Spotify could bridge the gap between 
+				</p>
+				
+				<h3 class="">
+					Subtle Social Qualities
 				</h3>
 				<p class="casestudy_bodytext">
-					Spotify emphasizes that "We're all Spotify" which includes creators, consumers, and everyone in between.
+					Spotify is social, but not in the traditionally loud Web 2.0 format. Spotify is first and foremost an audio player, and they fulfill that role extremely well. The social elements that Spotify has integrated into the app are used to support listeners in their main goal of finding and enjoying music.
 				</p>
-			  </div>
-			  <div class="column3">
-				<h3>
-					Personal
-				</h3>
-				<p class="casestudy_bodytext">
-					Spotify's tailored playlists and intimate copywriting create a personalized experience for each and every user.
-				</p>
-			  </div>
-			  <div class="column3">
-				<h3>
-					Innovative
-				</h3>
-				<p class="casestudy_bodytext">
-					Spotify is quick to adapt to new technologies, trends, and even memes.
-				</p>
-			  </div>
-			</div>
-			
-			<h2 class="">
-				Implementing Spotify's Brand Values
-			</h2>
-		
-			<p class="casestudy_bodytext">
-				It was important for our designs to strictly align with Spotify's core brand values because they were being implemented directly in the same application. We found a large discrepancy in both the quantity and quality of features between the music and podcast sides of Spotify, which extended to both consumption and creation. The resulting experience was problematic because many podcast listeners opted to use other podcast focused apps despite listening to music on Spotify, especially those who sought after value added features that Spotify lacked. We saw the opportunity to discover how Spotify could bridge the gap between 
-			</p>
-			
-			<h3 class="">
-				Subtle Social Qualities
-			</h3>
-			<p class="casestudy_bodytext">
-				Spotify is social, but not in the traditionally loud Web 2.0 format. Spotify is first and foremost an audio player, and they fulfill that role extremely well. The social elements that Spotify has integrated into the app are used to support listeners in their main goal of finding and enjoying music.
-			</p>
 
-			<img src="img/casestudy/spotify/research_social.png" class="casestudy_image">
-			
-			<p class="casestudy_bodytext">
-				Friend activity and group session are social features that sit on the sidelines; users have the option of completely ignoring them with no interruption to the flow of their regular use. However, for those who appreciate the benefits of discovery and directed listening, these features are there to support their needs. Additionally, businesses have created their own form of social content on Spotify by creating playlists that suit their brand.
-			</p>
-			<p class="casestudy_bodytext">
-				The main takeaway from this is that social features should ultimately support the listener’s main goal when using Spotify while remaining unobtrusive to the basic user flow.
-			</p>
+				<img src="img/casestudy/spotify/research_social.png" class="casestudy_image">
+				
+				<p class="casestudy_bodytext">
+					Friend activity and group session are social features that sit on the sidelines; users have the option of completely ignoring them with no interruption to the flow of their regular use. However, for those who appreciate the benefits of discovery and directed listening, these features are there to support their needs. Additionally, businesses have created their own form of social content on Spotify by creating playlists that suit their brand.
+				</p>
+				<p class="casestudy_bodytext">
+					The main takeaway from this is that social features should ultimately support the listener’s main goal when using Spotify while remaining unobtrusive to the basic user flow.
+				</p>
+			</div>
 		</section>
 		
 		<section class="section60 ">
-		
-			<h2 class="">
-				Google Design Sprint
-			</h2>
-			
-			<p class="casestudy_bodytext">
-				To start off the creation process, I led our team through a 5-day Google Design Sprint to find a solution to our business problem through design. We began by exploring 'How Might We' questions to focus the sprint around a meaningful goal. 
-			</p>
-			
-			<img src="img/casestudy/spotify/sprint_hmw.png" class="casestudy_image">
-			<figcaption>Group brainstorm & decision making on Figma</figcaption>
-			
-			<p class="casestudy_bodytext">
-				By considering our research, we landed on the sprint question:
-			</p>
-			<p class="casestudy_quote">
-				"Will streamlining the podcast consumer experience into the Spotify app establish them as a podcast consumption destination for frequent podcast users?"
-			</p>
-			<p class="casestudy_bodytext">
-				This question guided our efforts for the sprint as a reference and goal to everything we did that week. Our focus was to target heavy podcast consumers because the pain points we identified related best with that group. 
-			</p>
-			
-			<img src="img/casestudy/spotify/sprint_crazy8.png" class="casestudy_image">
-			<figcaption>Crazy 8's brainstorming session</figcaption>
-			
-			<p class="casestudy_bodytext">
-				Through ideation techniques like Crazy 8's, sketching, wireframing, and annotating, we pushed our ideas forward to several concepts we wanted to test. While we created a testable prototype, we enlisted the help of user experts and scheduled them for testing and interviews. Since we arrived at this stage relatively early, we were able to iterate on the prototype and test for a second round, which provided valuable insights that polished up our ideas.
-			</p>
-			
-			<img src="img/casestudy/spotify/sprint_prototype1.png" class="casestudy_image">
-			<figcaption>Prototype version 1</figcaption>
-			
-			<img src="img/casestudy/spotify/sprint_prototype2.png" class="casestudy_image">
-			<figcaption>Prototype version 2</figcaption>
+			<div class="casestudy_content_block">
+				<h2 class="">
+					Google Design Sprint
+				</h2>
+				
+				<p class="casestudy_bodytext">
+					To start off the creation process, I led our team through a 5-day Google Design Sprint to find a solution to our business problem through design. We began by exploring 'How Might We' questions to focus the sprint around a meaningful goal. 
+				</p>
+				
+				<img src="img/casestudy/spotify/sprint_hmw.png" class="casestudy_image">
+				<figcaption>Group brainstorm & decision making on Figma</figcaption>
+				
+				<h3>Sprint Question</h3>
+				<p class="casestudy_bodytext">
+					By considering our research, we landed on the sprint question:
+				</p>
+				<p class="casestudy_quote">
+					"Will streamlining the podcast consumer experience into the Spotify app establish them as a podcast consumption destination for frequent podcast users?"
+				</p>
+				
+				<p class="casestudy_bodytext">
+					This question guided our efforts for the sprint as a reference and goal to everything we did that week. Our focus was to target heavy podcast consumers because the pain points we identified related best with that group. 
+				</p>
+				
+				<img src="img/casestudy/spotify/sprint_crazy8.png" class="casestudy_image">
+				<figcaption>Crazy 8's brainstorming session</figcaption>
+				
+				<h3>Ideation & Testing</h3>
+				<p class="casestudy_bodytext">
+					Through ideation techniques like Crazy 8's, sketching, wireframing, and annotating, we pushed our ideas forward to several concepts we wanted to test. While we created a testable prototype, we enlisted the help of user experts and scheduled them for testing and interviews. Since we arrived at this stage relatively early, we were able to iterate on the prototype and test for a second round, which provided valuable insights that polished up our ideas.
+				</p>
+				
+				<img src="img/casestudy/spotify/sprint_prototype1.png" class="casestudy_image">
+				<figcaption>Prototype version 1</figcaption>
+				
+				<h3>Confirmation and Iteration</h3>
+				<p class="casestudy_bodytext">
+					Initial testing yielded promising results. Our users provided comments suggesting they would appreciate these features in the existing application. 
+				</p>
+				<div class="row">
+					<div class="column3">
+						<p class="casestudy_quote">
+							“English isn’t my first language and I often have to rewind podcasts to listen to parts again. Having a transcript is super useful.”
+						</p>
+					</div>
+					<div class="column3">
+						<p class="casestudy_quote">
+							“These new tools would make sharing podcasts with my friends less infuriating.”
+						</p>
+					</div>
+					<div class="column3">
+						<p class="casestudy_quote">
+							"This feels like something Spotify should already have."
+						</p>
+					</div>
+				</div>
+				
+				<p class="casestudy_bodytext">
+					Additionally, through observing and receiving feedback from the user tests, we were able to discover problems with our visual design, which we had time to iterate upon during the sprint.
+				</p>
+				
+				<img src="img/casestudy/spotify/sprint_prototype2.png" class="casestudy_image">
+				<figcaption>Prototype version 2</figcaption>
 
-			<p class="casestudy_bodytext">
-				The sprint was extremely successful as it both confirmed our hypothesis and revealed shortcomings of our initial prototypes. Our user experts agreed with the value of our proposed features and could see themselves wanting to use Spotify as their main podcast consumption app if they were implemented. On the other hand, light/passive podcast users confirmed that these features were nice to have but not really for them. These insights gave us the confidence we needed to move forward with the design. Having gone through multiple iterations of prototyping during the sprint, we were able to test multiple iterations of the interface and thus received critical comments on the effectiveness of our execution, allowing us to improve upon them in the following weeks.
-			</p>
-			
+				<h3>Concluding Sprint Week</h3>
+				<p class="casestudy_bodytext">
+					The sprint was extremely successful as it both confirmed our hypothesis and revealed shortcomings of our initial prototypes. Our user experts agreed with the value of our proposed features and could see themselves wanting to use Spotify as their main podcast consumption app if they were implemented. On the other hand, light/passive podcast users confirmed that these features were nice to have but not really for them. These insights gave us the confidence we needed to move forward with the design. Having gone through multiple iterations of prototyping during the sprint, we were able to test multiple iterations of the interface and thus received critical comments on the effectiveness of our execution, allowing us to improve upon them in the following weeks.
+				</p>
+			</div>
 		</section>
-		
 	</div>
 	
 	<div class="dark">
@@ -317,108 +348,100 @@
 			<div class="spacer4">
 			</div>
 
-			<img src="img/casestudy/spotify/feature_breakdown.png" class="casestudy_image">
+			
 			
 			<h2 class="">
 				Final Proposed Solution - Spotify Collections
 			</h2>
+			<img src="img/casestudy/spotify/feature_breakdown.png" class="casestudy_image">
 			<p class="casestudy_bodytext">
 				Our proposed solution is Spotify Collections, a system for note-taking and collaborative sharing for podcasts designed for engaged podcast listeners. These features aim to:
 			</p>
 			<div class="row">
 			  <div class="column3">
 				<p class="casestudy_bodytext list_text">
-					1. Provide value to listeners by equipping users with the podcast features they need within the Spotify app
+					<span class="bold">Provide value</span> to listeners by equipping users with the podcast features they need within the Spotify app
 				</p>
 			  </div>
 			  <div class="column3">
 				<p class="casestudy_bodytext list_text">
-					2. Reduce cognitive overhead by streamlining the podcast consumption process through new interactions
+					<span class="bold">Reduce cognitive overhead</span> by streamlining the podcast consumption process through new interactions
 				</p>
 			  </div>
 			  <div class="column3">
 				<p class="casestudy_bodytext list_text">
-					3. Align Spotify Podcasts to their brand presented in the rest of the platform
+					<span class="bold">Align Spotify Podcasts</span> to their brand presented in the rest of the platform
 				</p>
 			  </div>
 			</div>
+			<p class="casestudy_bodytext">
+					Click <a class="link_colour" href="https://www.figma.com/proto/9VUNGazycWksNshtCbXBLz/IAT-438-%2F-FINAL-WEEK-(Copy)?page-id=1%3A2&node-id=1%3A3110&viewport=333%2C48%2C0.07&scaling=scale-down&starting-point-node-id=1%3A4677&show-proto-sidebar=1
+" target="_blank">here</a> to interact with the final prototype in Figma.
+			</p>
 			
-			
-			  <p class="casestudy_bodytext">
-					Click <a href="https://www.figma.com/proto/9VUNGazycWksNshtCbXBLz/IAT-438-%2F-FINAL-WEEK-(Copy)?page-id=1%3A2&node-id=1%3A3110&viewport=333%2C48%2C0.07&scaling=scale-down&starting-point-node-id=1%3A4677&show-proto-sidebar=1
-">here</a> to interact with the final prototype in Figma.
+			<div class="casestudy_content_block">
+				<img src="img/casestudy/spotify/notes1.png" class="casestudy_image">
+				<h2 class="">
+					<sup>1</sup>Notes
+				</h2>
+				
+				<p class="casestudy_bodytext">
+					Notes is a new feature that allows users to clip sections of podcasts and/or jot down some thoughts and ideas about what they are listening to, allowing them to stay within the app while actively engaging with their favourite podcast content.
 				</p>
 				
-			<div class="spacer4">
+				<img src="img/casestudy/spotify/notes2.png" class="casestudy_image">
+				<img src="img/casestudy/spotify/notes3.png" class="casestudy_image">
+				<img src="img/casestudy/spotify/notes4.png" class="casestudy_image">
+				<img src="img/casestudy/spotify/notes5.png" class="casestudy_image">
+				<img src="img/casestudy/spotify/notes6.png" class="casestudy_image">
+				
+				<p class="casestudy_bodytext">
+					The value of notes is derived from its flexibility and seamless integration. Add bookmarks, create sound clips, jot down memos... or don't! The choice is yours, and their integration will not disturb your regular listening experience.
+				</p>
 			</div>
 			
-			<img src="img/casestudy/spotify/notes1.png" class="casestudy_image">
-			<h2 class="">
-				<sup>1</sup>Notes
-			</h2>
-			
-			<p class="casestudy_bodytext">
-				Notes is a new feature that allows users to clip sections of podcasts and/or jot down some thoughts and ideas about what they are listening to, allowing them to stay within the app while actively engaging with their favourite podcast content.
-			</p>
-			
-			<img src="img/casestudy/spotify/notes2.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes3.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes4.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes5.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/notes6.png" class="casestudy_image">
-			
-			<p class="casestudy_bodytext">
-				The value of notes is derived from its flexibility and seamless integration. Add bookmarks, create sound clips, jot down memos... or don't! The choice is yours, and their integration will not disturb your regular listening experience.
-			</p>
-			
-			<div class="spacer4">
+			<div class="casestudy_content_block">
+				<img src="img/casestudy/spotify/collections1.png" class="casestudy_image">
+				<h2 class="">
+					<sup>2</sup>Collections
+				</h2>
+				<p class="casestudy_bodytext">
+					Collections extends the Notes feature by allowing users to organize notes into spaces similar to playlists. Collaborative collections allow groups of users to communicate and share their podcast experiences in a convenient and unobtrusive manner.
+				</p>
+				
+				<img src="img/casestudy/spotify/collections2.png" class="casestudy_image">
+				
+				<p class="casestudy_bodytext">
+					Collections are music playlists reimagined for podcasts, requiring more space for content and collaboration. Collections allow users to become creators, either for themselves or as a social outlet.
+				</p>
 			</div>
-			
-			<img src="img/casestudy/spotify/collections1.png" class="casestudy_image">
-			
-			<h2 class="">
-				<sup>2</sup>Collections
-			</h2>
-			<p class="casestudy_bodytext">
-				Collections extends the Notes feature by allowing users to organize notes into spaces similar to playlists. Collaborative collections allow groups of users to communicate and share their podcast experiences in a convenient and unobtrusive manner.
-			</p>
-			
-			<img src="img/casestudy/spotify/collections2.png" class="casestudy_image">
-			
-			<p class="casestudy_bodytext">
-				Collections are music playlists reimagined for podcasts, requiring more space for content and collaboration. Collections allow users to become creators, either for themselves or as a social outlet.
-			</p>
-			
-			
-			<div class="spacer4">
-			</div>
-			
-			<img src="img/casestudy/spotify/infocards1.png" class="casestudy_image">
-			<h2 class="">
-				<sup>3</sup>Information Cards
-			</h2>
-			<p class="casestudy_bodytext">
-				Information Cards support the Notes feature by supplying users with the information and tools to get the most out of their podcast. Convenient placement of shownotes, transcripts, and timestamps reduce the friction of navigating podcast content while creating a new point of entry for note creation.
-			</p>
-			
 
-			<img src="img/casestudy/spotify/infocards2.png" class="casestudy_image">
-			<img src="img/casestudy/spotify/infocards3.png" class="casestudy_image">
+			<div class="casestudy_content_block">
+				<img src="img/casestudy/spotify/infocards1.png" class="casestudy_image">
+				<h2 class="">
+					<sup>3</sup>Information Cards
+				</h2>
+				<p class="casestudy_bodytext">
+					Information Cards support the Notes feature by supplying users with the information and tools to get the most out of their podcast. Convenient placement of shownotes, transcripts, and timestamps reduce the friction of navigating podcast content while creating a new point of entry for note creation.
+				</p>
+				
 
-
-			<div class="spacer4">
+				<img src="img/casestudy/spotify/infocards2.png" class="casestudy_image">
+				<img src="img/casestudy/spotify/infocards3.png" class="casestudy_image">
 			</div>
-			
-			<h2 class="">
-				Reflection
-			</h2>
-			<p class="casestudy_bodytext">
-				In the end, our team was quite satisfied with creating a design solution within Spotify's ecosystem that yielded promising feedback from user experts. Being told that our solution was "something Spotify should already have" or that they could not distinguish our design from the existing interface meant we were moving in the right direction.
-			</p>
-			
-			<p class="casestudy_bodytext">
-				If given a chance to do the project again, I would choose to be more experimental with interactions and solutions. Spotify boasts a creative and innovative brand, and thus there is an enourmous amount of room for experimentation and inginuity.
-			</p>
+
+			<div class="casestudy_content_block">
+				<h2 class="">
+					Reflection
+				</h2>
+				<p class="casestudy_bodytext">
+					In the end, our team was quite satisfied with creating a design solution within Spotify's ecosystem that yielded promising feedback from user experts. Being told that our solution was "something Spotify should already have" or that they could not distinguish our design from the existing interface meant we were moving in the right direction.
+				</p>
+				
+				<p class="casestudy_bodytext">
+					If given a chance to do the project again, I would choose to be more experimental with interactions and solutions. Spotify boasts a creative and innovative brand, and thus there is an enourmous amount of room for experimentation and inginuity.
+				</p>
+			</div>
 			
 			<div class="spacer4">
 			</div>
